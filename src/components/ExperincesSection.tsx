@@ -8,7 +8,7 @@ const ExperincesSection = () => {
     <div id="experinces" className="py-12 bg-black ">
       <div className="container space-y-14">
         <SectionHeader title="My" boldTitle="Experinces" style="white" />
-        <div className="space-y-7">
+        <div className="space-y-7 overflow-hidden">
           {experiences.map((experience) => (
             <motion.div
               initial={{ opacity: 0, x: experience.id % 2 === 0 ? 200 : -200 }}

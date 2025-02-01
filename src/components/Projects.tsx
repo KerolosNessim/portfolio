@@ -19,7 +19,6 @@ const Projects = () => {
         <Carousel
           opts={{
             loop: true,
-            dragFree: true,
           }}
         >
           <CarouselContent>
@@ -33,7 +32,7 @@ const Projects = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 1 }}
                   viewport={{ once: true }}
-                  className="lg:w-2/5 w-full h-96 relative"
+                  className="lg:w-2/5 w-full lg:h-96 h-80 relative"
                 >
                   <Image
                     src={project.image}
@@ -50,7 +49,7 @@ const Projects = () => {
                   viewport={{ once: true }}
                   className="lg:w-3/5 w-full lg:px-10 space-y-6"
                 >
-                  <p className="text-white text-5xl font-extrabold">
+                  <p className="text-white lg:text-5xl text-3xl font-extrabold">
                     0{index + 1}
                   </p>
                   <h2 className="text-white text-3xl font-extrabold">

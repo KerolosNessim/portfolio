@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${sora.variable} antialiased relative lg:pt-[150px] pt-[120px]  overflow-x-hidden`}
+        className={`${sora.variable} antialiased relative lg:pt-[150px] pt-[120px]  `}
       >
         <CustomCursor />
         <Navbar />

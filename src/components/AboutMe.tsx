@@ -4,7 +4,10 @@ import * as motion from "motion/react-client";
 
 const AboutMe = () => {
   return (
-    <div id="about" className="py-12 container flex items-start gap-10 ">
+    <div
+      id="about"
+      className="py-12 container flex items-start gap-10 overflow-hidden"
+    >
       <motion.img
         initial={{ opacity: 0, x: -200 }}
         whileInView={{ opacity: 1, x: 0 }}

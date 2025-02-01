@@ -81,7 +81,7 @@ const ContactMe = () => {
   return (
     <div id="contact" className="py-14 container space-y-14">
       <SectionHeader title="Contact" boldTitle="Me" style="black" />
-      <div className="flex items-start flex-col lg:flex-row gap-10">
+      <div className="flex items-start flex-col lg:flex-row gap-10 overflow-hidden">
         {/* form */}
         <motion.div
           initial={{ opacity: 0, x: -200 }}
