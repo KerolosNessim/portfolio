@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
+
+::selection {
+  background-color: #9ae600;
+  color: black;
+}
+/* scroll bar */
+/* Style for the whole scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Style for the track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Style for the handle (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #9ae600;
+}
+/* scroll bar */
+
+/* stroke text */
+.text-stroke {
+  color: #9ae600;
+  text-shadow: 2px 2px 0 black, -2px 2px 0 black, 2px -2px 0 black,
+    -2px -2px 0 black;
+  text-align: center;
+}
+/* stroke text */
