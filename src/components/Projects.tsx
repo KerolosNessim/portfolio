@@ -47,18 +47,20 @@ const Projects = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 1 }}
                   viewport={{ once: true }}
-                  className="lg:w-3/5 w-full lg:px-10 space-y-6"
+                  className="lg:w-3/5 w-full lg:px-10 lg:space-y-6 space-y-2"
                 >
-                  <p className="text-white lg:text-5xl text-3xl font-extrabold">
+                  <p className="text-white lg:text-5xl md:text-3xl text-xl font-extrabold">
                     0{index + 1}
                   </p>
-                  <h2 className="text-white text-3xl font-extrabold">
+                  <h2 className="text-white md:text-3xl text-xl font-extrabold">
                     {project.title}
                   </h2>
-                  <p className="text-lg text-gray-400">{project.description}</p>
+                  <p className="lg:text-lg text-gray-400">
+                    {project.description}
+                  </p>
                   <a
                     href={project.link}
-                    className="w-fit font-semibold capitalize text-lg text-black bg-lime-400 h-14  flex items-center gap-2 px-6 rounded-lg border-2 border-transparent hover:border-lime-400 hover:bg-black hover:text-lime-400 transition-all duration-300"
+                    className="w-fit font-semibold capitalize text-lg text-black bg-lime-400 lg:h-14 h-12  flex items-center gap-2 px-6 rounded-lg border-2 border-transparent hover:border-lime-400 hover:bg-black hover:text-lime-400 transition-all duration-300"
                   >
                     Live Demo <FaExternalLinkAlt size={20} />
                   </a>

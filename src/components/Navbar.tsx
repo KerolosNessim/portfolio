@@ -15,7 +15,7 @@ function Navbar() {
       initial={{ y: -200 }}
       animate={{ y: 0 }}
       transition={{ duration: 1 }}
-      className="container  fixed top-4 right-0 left-0 z-50 bg-black rounded-full shadow-xl py-2  md:ps-8   px-4 pe-2 flex items-center justify-between text-white"
+      className="lg:container  fixed lg:top-4 top-0 right-0 left-0 z-50 bg-black lg:rounded-full shadow-xl py-2  md:ps-8   px-4 pe-2 flex items-center justify-between text-white"
     >
       {/* logo */}
       <Link href="/" className="block">
@@ -24,7 +24,7 @@ function Navbar() {
 
       {/* navs */}
       <ul
-        className={`lg:flex flex-col lg:flex-row items-center gap-6 lg:gap-4 text-xl absolute lg:static bg-black lg:bg-transparent w-full lg:w-auto top-24  lg:top-auto left-0 lg:left-auto px-4 lg:px-0 py-6 lg:py-0 transition-all duration-300 ease-in-out rounded-3xl max-md:space-y-6 ${
+        className={`lg:flex flex-col lg:flex-row items-center gap-6 lg:gap-4 text-xl absolute lg:static bg-black lg:bg-transparent w-full lg:w-auto top-16  lg:top-auto left-0 lg:left-auto px-4 lg:px-0 py-6 lg:py-0 transition-all duration-300 ease-in-out  max-lg:space-y-6 ${
           isMobileMenuOpen ? "block" : "hidden"
         }`}
       >
@@ -75,7 +75,7 @@ function Navbar() {
         <a
           href="/Kerolos Nessim - Frontend Developer.pdf"
           download
-          className=" font-semibold capitalize lg:text-lg text-black bg-lime-400 h-14 flex items-center gap-2 px-6 rounded-full border-2 border-transparent hover:border-lime-400 hover:bg-black hover:text-lime-400 transition-all duration-300"
+          className=" font-semibold capitalize lg:text-lg text-black bg-lime-400 lg:h-14 h-12 flex items-center gap-2 px-6 lg:rounded-full rounded-md border-2 border-transparent hover:border-lime-400 hover:bg-black hover:text-lime-400 transition-all duration-300"
         >
           Download CV
           <FiDownload size={24} />
@@ -84,7 +84,7 @@ function Navbar() {
         <div className="lg:hidden flex items-center">
           <button
             onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
-            className="text-black bg-lime-400 font-semibold border-2 border-transparent hover:border-lime-400 hover:bg-black hover:text-lime-400 transition-all duration-300 size-14 rounded-full flex items-center justify-center"
+            className="text-black bg-lime-400 font-semibold border-2 border-transparent hover:border-lime-400 hover:bg-black hover:text-lime-400 transition-all duration-300 lg:size-14 size-12 rounded-md lg:rounded-full flex items-center justify-center"
           >
             {isMobileMenuOpen ? <FiX size={24} /> : <FiMenu size={24} />}
           </button>

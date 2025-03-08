@@ -33,7 +33,7 @@ const AboutMe = () => {
           style="black"
           align="md:text-start text-center"
         />
-        <p className="text-gray-500  text-lg space-y-4">
+        <p className="text-gray-500  lg:text-lg space-y-4">
           I am a dedicated frontend developer specializing in React.js and
           Next.js, with a keen eye for design and user experience. I take pride
           in crafting pixel-perfect, responsive, and high-performance web

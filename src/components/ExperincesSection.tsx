@@ -31,7 +31,7 @@ const ExperincesSection = () => {
                   {experience.date}
                 </p>
               </div>
-              <p className="text-[#D4D4D8] leading-6 mt-4 text-lg">
+              <p className="text-[#D4D4D8] leading-6 mt-4 lg:text-lg">
                 {experience.description}
               </p>
             </motion.div>
