@@ -15,7 +15,7 @@ function Navbar() {
       initial={{ y: -200 }}
       animate={{ y: 0 }}
       transition={{ duration: 1 }}
-      className="lg:container  fixed lg:top-4 top-0 right-0 left-0 z-50 bg-black lg:rounded-full shadow-xl py-2  md:ps-8   px-4 pe-2 flex items-center justify-between text-white"
+      className="lg:container  fixed lg:top-4 top-0 right-0 left-0 z-50 bg-black lg:rounded-full shadow-xl py-2  md:ps-8 md:pe-2  px-4 pe-2 flex items-center justify-between text-white"
     >
       {/* logo */}
       <Link href="/" className="block">

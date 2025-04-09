@@ -73,13 +73,20 @@ export const experiences = [
   },
   {
     id: 2,
+    title: "Frontend Instructor at TSD - Mansoura",
+    description: "Taught front-end development with HTML, CSS, JavaScript, React, and Next.js, Guided students through projects, code reviews, and development best practices.",
+    date: "Mar 2025 - Present",
+    img:"/tsd.png"
+  },
+  {
+    id: 3,
     title: "Frontend Instructor at ITS-TECHNO FUTURE - El-Mahalla EL-Kubra ",
     description: "helping children from 12 to 18 years old learn to program the frontends of websites, and learn them the basics of javascript, html, css, and react, and also help them to working on projects to help children enter competitions",
     date: "Jul 2023 - Present",
     img:"/its.png"
   },
   {
-    id: 3,
+    id: 4,
     title: "Web development internship at AZZRK company  ",
     description: " training on marketing and presentation skills,- training on development website using Wordpress, and learning to work on projects",
     date: "Jun 2024 - Aug 2024",
@@ -109,10 +116,10 @@ export const projects =
     link: "https://fresh-cart-kohl.vercel.app/"
   },
   {
-    title: "Note App",
-    description: "Built a note-taking app with React.js, React-Bootstrap, and Recoil for efficient state management. Implemented user authentication using Formik and Yup, ensuring secure access to notes. Designed a clean and intuitive UI for creating, editing, and organizing notes, making it easy for users to manage their thoughts. The app provides a smooth and responsive user experience across different devices.",
-    image: "/to-do-app.png",
-    link: "https://note-app-kappa-six.vercel.app/"
+    title: "Art Space",
+    description: "Developed an e-commerce website using Next JS 15, React JS 19, Typescript, Tailwind CSS V4,Shadcn UI, Using Zustand for state management, Using React Query V5 and Axios for handling API requests,Using React Hook Form and Zod for building functionality for all forms in system, Implemented an online and cash payment system",
+    image: "/artspace.png",
+    link: "https://artspace.sa/"
   },
   {
     title: "Yummy Website",
@@ -120,17 +127,5 @@ export const projects =
     image: "/yummy.png",
     link: "https://yummy-coral-three.vercel.app/"
   },
-  {
-    title: "Quiz App",
-    description: "Designed and developed a dynamic quiz application using Object-Oriented Programming (OOP) concepts for better code structure. Integrated an API for fetching real-time questions, ensuring a diverse range of quizzes. The app features a responsive UI built with Bootstrap, making it accessible across all devices. Includes real-time score tracking and feedback, engaging users in an interactive learning experience",
-    image: "/quiz-app.png",
-    link: "https://quizz-app-teal.vercel.app/"
-  },
-  {
-    title: "Weather App",
-    description: "Built a responsive weather application using vanilla JavaScript, focusing on DOM manipulation and API integration. Fetches real-time weather data for cities worldwide and presents it in a visually appealing format. The app features temperature, humidity, and forecast details, making it a handy tool for quick weather updates. The clean and simple UI ensures an optimal user experience on both mobile and desktop.",
-    image: "/weather.png",
-    link: "https://weather-app-five-phi-24.vercel.app/"
-  }
 ]
 
